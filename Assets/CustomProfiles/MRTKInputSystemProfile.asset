@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71cb900fa9dec5488df2deb180db58f, type: 3}
+  m_Name: MRTKInputSystemProfile
+  m_EditorClassIdentifier: 
+  isCustomProfile: 1
+  focusProviderType:
+    reference: Microsoft.MixedReality.Toolkit.Services.InputSystem.FocusProvider,
+      Microsoft.MixedReality.Toolkit.Services.InputSystem
+  inputActionsProfile: {fileID: 11400000, guid: f1f9ebbb7e8eff144932be395f74f5ef,
+    type: 2}
+  inputActionRulesProfile: {fileID: 11400000, guid: 50f88da54902acc42a9e8c326e7d4057,
+    type: 2}
+  pointerProfile: {fileID: 11400000, guid: da580971d6d4d434a9bd8123aadf4a3e, type: 2}
+  gesturesProfile: {fileID: 11400000, guid: 3dee71082abe616468e64aa3166822cc, type: 2}
+  speechCommandsProfile: {fileID: 11400000, guid: 279257baea61db54e918e33109fe67d2,
+    type: 2}
+  enableControllerMapping: 1
+  controllerMappingProfile: {fileID: 11400000, guid: 92e56573b420e594886c7c0b484b368a,
+    type: 2}
+  controllerVisualizationProfile: {fileID: 0}
